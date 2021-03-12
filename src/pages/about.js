@@ -56,7 +56,7 @@ const AboutPage = () => (
           {/* - Image */}
 
           {/* + Card */}
-          <div className="col-lg-7 my-auto">
+          {/* <div className="col-lg-7 my-auto">
             <div className="card shadow-sm">
               <div className="card-body">
                 <div className="card-title">
@@ -74,7 +74,7 @@ const AboutPage = () => (
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* - Card */}
         </div>
       </div>

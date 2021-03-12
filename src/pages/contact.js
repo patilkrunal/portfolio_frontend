@@ -25,10 +25,10 @@ const ContactPage = () => (
             </p>
             <ul>
               <li>Website Development</li>
-              <li>User Interface (UI) Design</li>
-              <li>Logo Creation</li>
-              <li>Website Scraping Automation</li>
-              <li>Quality Assurance Testing</li>
+              <li>Programming</li>
+              <li>Graphic Design</li>
+              <li>Social Activism</li>
+              <li>Any kind of help</li>
             </ul>
 
             <a
