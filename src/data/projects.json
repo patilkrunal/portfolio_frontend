@@ -1,0 +1,26 @@
+[
+  {
+    "project": "Digital Badge/certificate Generator",
+    "language": "Django | Bootstrap | JWT | QRcode",
+    "description": "Dynamic portal for the Final Round of Globalshala 2.0 Hackathon.",
+    "link": "https://github.com/gitkp11/BadgeProject"
+  },
+  {
+    "project": "Cricket match Scorecard Simulator",
+    "language": "DSA | OOPS | C++",
+    "description": "virtual cricket match scorecard simulator as mini-project for DSA course using data structures in C++",
+    "link": "https://github.com/gitkp11/cricket-score-simulator"
+  },
+  {
+    "project": "Image Steganography",
+    "language": "Python | OpenCV",
+    "description": "Digital signing images to prove ownership & hiding confidential data inside the image. Expanded the Project to Audio Steganography",
+    "link": "https://github.com/gitkp11/Steganography"
+  },
+  {
+    "project": "Python Scripts",
+    "language": "2048 | Hangman | TicTacToe | Tkinter",
+    "description": "Created 30+ python mini scripts.",
+    "link": "https://github.com/patilkrunal/Python-Mini-Projects"
+  }
+]
