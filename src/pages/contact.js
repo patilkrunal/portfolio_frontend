@@ -32,7 +32,7 @@ const ContactPage = () => (
             </ul>
 
             <a
-              href="https://drive.google.com/file/d/1uc-0noL9qvdZ9di_X3kLlY27fHDFUeJT/view?usp=sharing"
+              href="https://docs.google.com/document/d/141pcQ9HLzAx04wBM2AsnY74URvkhqvd6iuMHZOAvebY/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="main-button btn btn-primary shadow-sm mt-2"
