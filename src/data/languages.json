@@ -9,15 +9,6 @@
     "language": "Java"
   },
   {
-    "language": "HTML"
-  },
-  {
-    "language": "CSS"
-  },
-  {
-    "language": "Javascript"
-  },
-  {
     "language": "Python"
   },
   {
@@ -27,7 +18,13 @@
     "language": "Django-RestFramework"
   },
   {
-    "language": "Node"
+    "language": "HTML"
+  },
+  {
+    "language": "CSS"
+  },
+  {
+    "language": "Javascript"
   },
   {
     "language": "ReactJS"
@@ -36,19 +33,19 @@
     "language": "GatsbyJS"
   },
   {
-    "language": "Data Science"
-  },
-  {
-    "language": "Web Development"
+    "language": "Bootstrap"
   },
   {
     "language": "MySQL"
   },
   {
-    "language": "Github"
+    "language": "PostgreSQL"
   },
   {
-    "language": "Bootstrap"
+    "language": "Neo4j"
+  },
+  {
+    "language": "Data Science"
   },
   {
     "language": "NumPy"
@@ -63,6 +60,12 @@
     "language": "Matplotlib"
   },
   {
+    "language": "Github"
+  },
+  {
     "language": "CorelDraw"
+  },
+  {
+    "language": "Adobe Photoshop"
   }
 ]
