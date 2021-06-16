@@ -77,7 +77,7 @@ export default class Footer extends Component {
                     </li>
                     <li className="list-inline-item">
                       <a
-                        href="https://twitter.com/KP_11_"
+                        href="https://twitter.com/_patilkrunal/"
                         target="_blank"
                         rel="noreferrer"
                         alt="twitter link"
