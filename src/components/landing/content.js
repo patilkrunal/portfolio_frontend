@@ -7,6 +7,7 @@ import {
   faCalendar,
   faTerminal,
   faGraduationCap,
+  faLayerGroup,
   faUserGraduate,
   faCode,
 } from "@fortawesome/free-solid-svg-icons"
@@ -130,7 +131,7 @@ export default class Content extends Component {
                         </h4>
                         <h4>
                           <FontAwesomeIcon
-                            icon={faUserGraduate}
+                            icon={faLayerGroup}
                             className="mr-2"
                           />{" "}
                           Django | DjangoRestFramework | ReactJS | PostgreSQL |
@@ -139,13 +140,11 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                        Worked on building the digital infrastructure for Mslate.ai
-                        startup using the following tech stack:
-                        Developed Dynamic Patient Symptom check with report &
-                        prescription section, chat/audio/video call feature for
-                        patient-doctor communication, EHR schemas in
-                        PostgreSQL & neo4j. Role-based login system with
-                        effective handling of HTTP requests.
+                        Developed a digital portal for doctors/patients using Django, 
+                        ReactJS, Redux, Neo4j Graph Database, PostgreSQL. Practiced 
+                        agile development, collaborated with the team through sprint 
+                        & retrospective meetings. Features: chat | audio | video call 
+                        | EHR | JWT tokens | Beta trial conducted successfully.
                       </div>
                     </div>
                   </div>
@@ -170,7 +169,7 @@ export default class Content extends Component {
                         </h4>
                         <h4>
                           <FontAwesomeIcon
-                            icon={faUserGraduate}
+                            icon={faLayerGroup}
                             className="mr-2"
                           />{" "}
                           Django | Bootstrap | ORM | JWT | Admin User Flow
@@ -178,8 +177,7 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                      Created dynamic website for well-established firma company 
-                      and was able to convert offline flow into digital platform.
+                      Developed a dynamic web-portal with admin support. Converted offline workflow to digital platform. Built purely in Django along with Jinja, Bootstrap5, ORM, Allauth, SocialOauth, Admin Dashboard.
                       </div>
                     </div>
                   </div>
