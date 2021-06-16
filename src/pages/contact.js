@@ -19,17 +19,6 @@ const ContactPage = () => (
               available at the following social media outlets:
             </p>
             <Links />
-            <p>
-              I am currently available for freelance work. My scope of work
-              includes but not limited to:
-            </p>
-            <ul>
-              <li>Website Development</li>
-              <li>Programming</li>
-              <li>Graphic Design</li>
-              <li>Social Activism</li>
-              <li>Any kind of help</li>
-            </ul>
 
             <a
               href="https://drive.google.com/file/d/1b_F2_uNIGPucUUhUmU0brFl5-qYF3JsY/view?usp=sharing"
