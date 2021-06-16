@@ -43,7 +43,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://twitter.com/KP_11_"
+          href="https://twitter.com/_patilkrunal/"
           target="_blank"
           rel="noreferrer"
           alt="twitter link"
