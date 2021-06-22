@@ -31,7 +31,7 @@ export default function Hero() {
                 Get to know me
               </Link>
               <a
-                href="https://drive.google.com/file/d/1b_F2_uNIGPucUUhUmU0brFl5-qYF3JsY/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hN60SKE2AlR5DW1o8pDBLA_10HMFzNGu/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="main-button btn btn-primary shadow-sm ml-3"
