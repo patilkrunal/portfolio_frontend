@@ -31,7 +31,7 @@ export default function Hero() {
                 Get to know me
               </Link>
               <a
-                href="https://drive.google.com/file/d/1hN60SKE2AlR5DW1o8pDBLA_10HMFzNGu/view?usp=sharing"
+                href="https://bit.ly/krunal-cv"
                 target="_blank"
                 rel="noreferrer"
                 className="main-button btn btn-primary shadow-sm ml-3"
