@@ -42,8 +42,14 @@ export default class Footer extends Component {
                       </Link>
                     </li>
                     <li className="list-inline-item mr-4" alt="site title">
-                      &copy; {new Date().getFullYear()}.{" "}
-                      {data.site.siteMetadata.title}.
+                      Original design by 
+                        <a
+                        href="https://github.com/gmlunesa"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        gmlunesa
+                      </a>
                     </li>
                     <li className="list-inline-item mr-4">
                       <a
