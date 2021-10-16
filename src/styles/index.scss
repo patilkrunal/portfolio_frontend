@@ -1,0 +1,387 @@
+////////////////////////////////////////////// Hero Section ////////////////////////////////////////////////////////////
+
+section.hero {
+  .hero-introduction {
+    text-align: center;
+    h1 {
+      font-weight: 800;
+      font-size: 4rem;
+      line-height: 5rem;
+
+      // .word {
+      //   background-image: linear-gradient(
+      //     to right,
+      //     var(--link-secondary) 0%,
+      //     var(--link-secondary) 100%
+      //   );
+      //   background-repeat: no-repeat;
+      //   background-size: 100% 1rem;
+      //   background-position: 0 95%;
+      // }
+    }
+
+    p {
+      font-size: 1.15rem;
+    }
+  }
+
+  .hero-button {
+    color: var(--text-on-link);
+    background-color: var(--link-secondary);
+    border-color: var(--link-secondary);
+    font-size: 1.15rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: box-shadow 0.5s ease-in-out;
+    // margin-top: 0.5rem;
+    // margin-bottom: 0.5rem;
+    padding: 1rem 0.75rem;
+
+    &:hover {
+      opacity: 1;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+
+    // &:active {
+    // background-color: var(--link-secondary) !important;
+    // border-color: transparent !important;
+    // }
+
+    &--resume {
+      @extend .hero-button;
+      color: var(--base);
+      border-color: var(--secondary);
+      background-color: var(--secondary);
+      box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+    }
+  }
+
+  .list-group {
+    justify-content: center;
+
+    .list-group-item {
+      font-size: 1.75rem;
+      background-color: transparent;
+      border-color: transparent;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+
+      a {
+        color: var(--link-secondary);
+      }
+    }
+  }
+
+  .hero-bio {
+    .card {
+      border: transparent;
+      text-align: center;
+      background-color: var(--complement);
+      border-radius: 20px;
+      transition: color 0.2s ease-in, background-color 0.2s ease-in;
+
+      .card-body {
+        margin: 25px 0;
+      }
+
+      .icon {
+        width: 6rem;
+        height: 6rem;
+        margin: 0px auto;
+        margin-bottom: 1rem;
+        text-align: center;
+        display: block;
+        position: relative;
+        border: 0.3rem solid var(--link-secondary);
+        background: var(--link-secondary);
+        border-radius: 100%;
+
+        img {
+          border-radius: 100%;
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  span.wave {
+    font-size: 3.5rem;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media (min-width: 960px) {
+    // background-image: url(../images/pattern.svg);
+
+    height: 90vh;
+    min-height: 600px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .hero-introduction {
+      margin-bottom: 0;
+      text-align: left;
+    }
+
+    .ml-lg-3 {
+      margin-left: 3rem;
+    }
+  }
+
+  @media (min-width: 390px) {
+    .ml-lg-3 {
+      margin-left: 3rem;
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 2.9rem;
+    .header-content {
+      h1 {
+        line-height: 3rem;
+      }
+    }
+
+    .hero-introduction {
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+      }
+    }
+
+    .hero-button {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+///////////////////////////////////////////// Content Section ////////////////////////////////////////////////////////////////
+section.content {
+  padding: 75px 0;
+  background-color: var(--secondary);
+  transition: color 0.1s ease-in, background-color 0.2s ease-in;
+
+  .subsection {
+    h2 {
+      text-align: center;
+      font-weight: 800;
+      font-size: 2.2rem;
+      line-height: 3.5rem;
+      // font-style: oblique;
+      // text-transform: uppercase;
+
+      .word {
+        background-image: linear-gradient(
+          to right,
+          var(--link-muted) 0%,
+          var(--link-secondary) 100%
+        );
+        background-repeat: no-repeat;
+        background-size: 100% 0.75rem;
+        background-position: 0 95%;
+      }
+    }
+    .card {
+      border: 0.5rem solid var(--tertiary);
+      background-color: var(--secondary);
+      margin-bottom: 0.75rem;
+      transition: background-color 0.2s ease-in;
+    }
+
+    .card-item {
+      padding: 0.75rem;
+      background-color: var(--secondary);
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      transition: background-color 0.2s ease-in;
+
+      .item-icon {
+        color: var(--link-primary);
+      }
+
+      &:hover {
+        //border: 1px solid var(--link-secondary);
+
+        .item-icon {
+          color: var(--link-secondary);
+        }
+      }
+    }
+
+    .card-footer {
+      background-color: var(--secondary);
+      border-color: var(--tertiary);
+    }
+
+    a {
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  @media (min-width: 960px) {
+    .subsection {
+      h2 {
+        text-align: left;
+        // border-left: 5px solid var(--link-secondary);
+        // padding-left: 6px;
+
+        .word {
+          background: none;
+        }
+
+        .dot {
+          transition: background-color 0.5s ease-in-out;
+          height: 15px;
+          width: 15px;
+          background-color: var(--contrast);
+          border-radius: 50%;
+          display: inline-block;
+          margin-bottom: 5px;
+          margin-right: 7px;
+          // color: var(--link-muted);
+          // opacity: 80%;
+
+          // COMMENT: Highlight code
+          // padding-left: 6px;
+          // background: linear-gradient(
+          //   to right,
+          //   var(--link-muted) 0%,
+          //   var(--link-muted) 30%
+          // );
+          // background-position: 0 25%;
+          // background-repeat: repeat-y;
+          // background-size: 4px 1px;
+          // color: (var(--base));
+          // text-decoration: none;
+          // transition: background-size 0.4s ease-in-out;
+        }
+      }
+
+      &:hover {
+        h2 {
+          .dot {
+            background-color: var(--link-secondary);
+            opacity: 1;
+            // COMMENT: Highlight code
+            // background-size: 100% 100%;
+            // font-style: oblique;
+          }
+        }
+      }
+    }
+  }
+}
+
+section.contactform {
+  padding: 75px 0;
+  h2 {
+    text-align: center;
+  }
+  .img-container {
+    img {
+      display: block;
+      // height: auto;
+      // max-width: 100%;
+      margin: 0px auto;
+      width: 12rem;
+      height: 12rem;
+      border-style: none;
+    }
+  }
+
+  label {
+    margin: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 0.15rem solid var(--tertiary);
+    background-color: var(--primary);
+    color: var(--base);
+    outline: none;
+  }
+
+  button {
+    background-color: var(--link-primary);
+    color: var(--text-on-link);
+    font-weight: bold;
+
+    &:hover {
+      opacity: 0.7;
+      color: var(--text-on-link);
+    }
+  }
+
+  span.ring {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media (min-width: 960px) {
+    h2 {
+      text-align: left;
+    }
+  }
+}

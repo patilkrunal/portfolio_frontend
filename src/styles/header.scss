@@ -1,8 +1,10 @@
 nav {
   background-color: var(--secondary);
+  display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bolder;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
 
   .navbar-brand {
     color: var(--base);
@@ -67,4 +69,26 @@ nav {
 
 .navbar {
   padding: 1rem 1rem;
+}
+
+
+footer {
+  background-color: var(--secondary);
+  bottom: 0;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+
+  ul {
+    padding-inline-start: 1px;
+  }
+
+  .link {
+    background: var(--tertiary);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: var(--base);
+    font-weight: normal;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

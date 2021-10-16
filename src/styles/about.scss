@@ -6,6 +6,11 @@ section.about {
     padding-top: 1.5rem;
   }
 
+  h1 {
+    font-size: 1.75rem;
+    font-weight: normal;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -15,6 +20,11 @@ section.about {
     font-style: oblique;
     color: var(--contrast);
     opacity: 0.65;
+  }
+
+  h4 {
+    font-size: 0.85rem;
+    font-style: oblique;
   }
 
   .img-container {
@@ -38,6 +48,12 @@ section.about {
     margin: 20px auto;
   }
 
+  .cursor {
+    color: var(--link-primary);
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
   .card {
     border: none;
     border-radius: 0.5rem;
@@ -47,6 +63,18 @@ section.about {
     .card-text {
       text-align: justify;
     }
+  }
+
+  .text-highlight {
+    font-style: normal;
+    border-radius: 1em 0 1.5em 0.5em;
+    // text-shadow: 1px 1px 1px #fff;
+    background-image: linear-gradient(
+      -100deg,
+      rgba(255, 150, 246, 0.15),
+      rgba(255, 150, 237, 0.8) 100%,
+      rgba(255, 150, 215, 0.25)
+    );
   }
 
   @media (min-width: 960px) {
@@ -66,6 +94,10 @@ section.about {
     }
 
     h1 {
+      font-size: 1.75rem;
+    }
+
+    h2 {
       font-size: 1.75rem;
     }
   }

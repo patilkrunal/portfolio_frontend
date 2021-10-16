@@ -188,7 +188,7 @@ This site uses Font Awesome icons. Should you want to add more icons, please ref
 
 ## 🙏 Credits
 
-This project is built on top of [gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world). SVG assets were downloaded from [Undraw.co](https://undraw.co).
+This project is built on top of [gmlunesa.github.io](https://github.com/gmlunesa/gatsby-starter-personal-portfolio). 
 
 ## 💫 Deploy
 
@@ -198,6 +198,6 @@ This project is built on top of [gatsby-starter-hello-world](https://github.com/
 
 ## 👍 Feedback
 
-Feedback welcome! Please contact me through my email gmlunesa[at]gmail[dot]com, or visit my [website](https://gmlunesa.com).
+Feedback welcome! Please contact original author through her email gmlunesa@gmail.com, or visit her [website](https://gmlunesa.com).
 
 ![Website](https://img.shields.io/website?down_color=blue&down_message=offline&up_color=brightgreen&up_message=online&style=flat-square&url=https%3A%2F%2Fgatsby-starter-personal-portfolio.vercel.app)

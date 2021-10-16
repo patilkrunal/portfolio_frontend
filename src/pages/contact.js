@@ -2,13 +2,15 @@ import React from "react"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
+import ContactForm from "../components/contactform"
+
 import Links from "../components/links"
 import contactimg from "../images/contactimg.svg"
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <section className="contact">
+    <section className="contact" id="top">
       <div className="container">
         <div className="row mt-4">
           <div className="col-md-8">
@@ -36,6 +38,7 @@ const ContactPage = () => (
           </div>
         </div>
       </div>
+      <ContactForm />
     </section>
   </Layout>
 )

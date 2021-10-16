@@ -16,7 +16,7 @@ export default function Links() {
           href="mailto:patilkrunal11.kp@gmail.com"
           target="_blank"
           rel="noreferrer"
-          alt="email link"
+          alt="Email link"
         >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
@@ -26,7 +26,7 @@ export default function Links() {
           href="https://github.com/patilkrunal"
           target="_blank"
           rel="noreferrer"
-          alt="github link"
+          alt="Github link"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
@@ -36,7 +36,7 @@ export default function Links() {
           href="https://linkedin.com/in/patilkrunal"
           target="_blank"
           rel="noreferrer"
-          alt="linkedin link"
+          alt="LinkedIn link"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -46,11 +46,19 @@ export default function Links() {
           href="https://twitter.com/_patilkrunal/"
           target="_blank"
           rel="noreferrer"
-          alt="twitter link"
+          alt="Twitter link"
         >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </li>
+      {/* <li>
+        <a href="https://twitter.com/_patilkrunal"
+          className="follow-button btn btn-primary shadow-lg"
+          target="_blank"
+        >
+          Follow
+        </a>
+      </li>*/}
     </ul>
   )
 }

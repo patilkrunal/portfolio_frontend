@@ -1,9 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-@import "../styles/header.scss";
-@import "../styles/footer.scss";
+@import "../styles/index.scss";
 @import "../styles/about.scss";
 @import "../styles/contact.scss";
+@import "../styles/header.scss";
+@import "../styles/footer.scss";
+@import "../styles/blog.scss";
+@import "../styles/blogpost.scss";
+@import "../styles/404.scss";
 
 @import "../styles/landing/hero.scss";
 @import "../styles/landing/content.scss";

@@ -19,13 +19,15 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            image
+            url
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = description + " | " + site.siteMetadata.description
 
   return (
     <Helmet
@@ -40,6 +42,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `image`,
+          property: `image`,
+          content: `${site.siteMetadata.image}`,
+        },
+        {
           property: `og:title`,
           content: `${title} | ${site.siteMetadata.title}`,
         },
@@ -50,6 +57,11 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `og:image`,
+          property: `og:image`,
+          content: `${site.siteMetadata.image}`,
         },
         {
           name: `twitter:card`,
@@ -66,6 +78,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `${site.siteMetadata.image}`,
         },
       ].concat(meta)}
     />
