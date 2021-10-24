@@ -1,13 +1,12 @@
 import React from "react"
 import SEO from "../components/seo"
 
-import Layout from "../components/layout"
 import Image from "../components/image"
 
 import Typing from "react-typing-animation"
 
 const AboutPage = ({ data }) => (
-  <Layout>
+  <>
     <SEO title="About"/>
     {/* <Masthead /> */}
     <section className="about" id="top">
@@ -97,9 +96,10 @@ const AboutPage = ({ data }) => (
                   code and experiment with different languages and tech. Check
                   out my{" "}
                   <a
-                    href="https://github.com/gmlunesa"
+                    href="https://github.com/patilkrunal"
                     target="_blank"
                     rel="noreferrer"
+                    alt="Github link"
                   >
                     Github
                   </a>{" "}
@@ -243,6 +243,6 @@ const AboutPage = ({ data }) => (
         </div>
       </div>
     </section>
-  </Layout>
+  </>
 )
 export default AboutPage
